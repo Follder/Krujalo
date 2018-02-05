@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoSlab";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoSlab/RobotoSlab.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab/RobotoSlab.woff") format("woff"), url("../fonts/RobotoSlab/RobotoSlab.ttf") format("truetype"); }
+
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../fonts/YanoneKaffeesatz-Regular.eot');
+	src: local('../fonts/Yanone Kaffeesatz-Regular'), local('../fonts/YanoneKaffeesatz-Regular'),
+		url('../fonts/YanoneKaffeesatz-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/YanoneKaffeesatz-Regular.woff') format('woff'),
+		url('../fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "NeuchaRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/NeuchaRegular.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/NeuchaRegular.woff") format("woff"),
+  url("../fonts/NeuchaRegular.ttf") format("truetype"); }
+
+@font-face {
+	font-family: 'Hagin Caps';
+	src: url('../fonts/HaginCapsMedium.eot');
+	src: local('Hagin Caps Medium'), local('HaginCapsMedium'),
+		url('../fonts/HaginCapsMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HaginCapsMedium.woff') format('woff'),
+		url('../fonts/HaginCapsMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
