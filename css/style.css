@@ -396,8 +396,8 @@ padding: 5% 0;
 /* Gallery */
 
 .h1 {
-	margin: 0 auto;
-	padding-bottom: 3%;
+	margin: 35px auto;
+	padding-bottom: 20px;
 }
 
     .thumb img { 
@@ -576,17 +576,19 @@ ul.nav li {
 }
 
  .icon-decor-left {
- 	margin-right: 30px;
+ 	position: relative;
+  left: -25px;
  }
 
  .icon-decor-right {
- 	margin-left: 10px;
+ 	position: relative;
+  right: -8px;
  }
 
  .icon-decor-up,
  .icon-decor-down {
 position: relative;
-left: -84px;
+left: -95px;
  	font-size: 1.5em;
  	color: #b48a76;
  	display: block;
@@ -662,16 +664,16 @@ left: -84px;
 
 .navs {
 	display: block;
-	margin: 0 auto;
+	margin: 15px auto;
 }
 
 .navs li {
 	list-style: none;
+	display: inline-block;
+	width: 150px;
 }
 
 ul.navs>li>a {
-	display: inline;
-	float: left;
 	font-size: 24px;
 	line-height: 40px;
 	width: 150px;
@@ -692,5 +694,37 @@ ul.navs>li>a:focus {
 .navbar-background {
 	
 	display: block;
+	text-align: center;
+}
+
+.navbar-header {
+	font-size: 25px;
+	color: #efd026;
+}
+
+.navbar-header>.navbar-brand {
+	font-size: 25px;
+	color: rgba(255,255,255,0.8);
+	text-transform: uppercase;
+	line-height: 35px;
+	margin-left: 15px;
+}
+
+
+
+@media (max-width: 767px){
+.navs>li {
+    display: block;
+    margin: 0 auto;
+}
+}
+
+@media (max-width: 768px){
+h1 {
+    font-size: 30px;
+}
+}
+
+.visible-xs p {
 	text-align: center;
 }
