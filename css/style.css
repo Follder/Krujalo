@@ -14,8 +14,6 @@ p {
 	line-height: 	30px;
 }
 
-
-
 h1 {
 	font-family: 'Hagin Caps';
 	font-size: 	35px;
@@ -430,6 +428,10 @@ ul.textMenu li {
 	line-height: 22px;
 }
 
+.center li{
+	text-align: center;
+}
+
 ul.textMenu li:hover {
 	color: #636363;
 }
@@ -442,13 +444,61 @@ ul.textMenu span {
 	font-weight: 400;
 }
 
+ul.textMenuMobile li {
+	text-align: center;
+	list-style: none;
+	margin-top: 30px;
+	font-size: 24px;
+	line-height: 22px;
+}
+
+ul.textMenuMobile li:hover {
+	color: #7c7b7b;
+}
+
+ul.textMenuMobile span {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #9d9d9c;
+}
+
+.panel-title a {
+	font-size: 26px;
+}
+
+.panel-title a:hover {
+	text-decoration: none;
+	color: #b48a76;
+}
+
+.panel-title a:focus {
+	text-decoration: none;
+	color: #b48a76;
+}
+
 .imgMenu {
 	margin-top: 30px;
-	width: 450px;
+	width: 90%;
 	border: 10px solid #fff;
 	margin-left: 50px;
 	overflow:hidden;
+}
 
+.imgMenuMobile {
+	margin: 0 auto;
+	border: 10px solid #ededed;
+	border-radius: 10px;
+	overflow: hidden;
+		max-width: 700px;
+}
+
+.imgMenuMobile img {
+
+	width: 100%;
+	height: auto;
 }
 
 .imgMenu img {
@@ -603,4 +653,44 @@ left: -84px;
 	line-height: 40px;
 	color: #efd026;
 	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.fotogallery {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navs {
+	display: block;
+	margin: 0 auto;
+}
+
+.navs li {
+	list-style: none;
+}
+
+ul.navs>li>a {
+	display: inline;
+	float: left;
+	font-size: 24px;
+	line-height: 40px;
+	width: 150px;
+	letter-spacing: 1.2px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+ul.navs>li>a:hover {
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+ul.navs>li>a:focus {
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+.navbar-background {
+	
+	display: block;
+	text-align: center;
 }
