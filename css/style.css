@@ -37,8 +37,8 @@ nav>a {
 
 
 nav>a:hover {
-text-decoration: none;
-color: #efd026;
+	text-decoration: none;
+	color: #efd026;
 }
 
 nav>a:active {
@@ -104,8 +104,8 @@ ul {
 	background-image: url(../images/bg4.jpg);
 	background-repeat: no-repeat;
 
-    background-size: cover; /* Современные браузеры */
-background-position: center;
+	background-size: cover; /* Современные браузеры */
+	background-position: center;
 	height: 100vh;
 }
 
@@ -131,9 +131,9 @@ background-position: center;
 
 .circle {
 	color: #efd026;
-margin: 0 18px;
+	margin: 0 18px;
 	font-size: 	10px;
-top: -2px;
+	top: -2px;
 }
 
 .block2 {
@@ -146,6 +146,12 @@ top: -2px;
 	position: relative;
 	padding: 	20px;
 	height: 	550px;
+}
+
+@media (max-width: 768px)  {
+	.carousel-image {
+		height: auto!important;
+	}
 }
 
 .Neucha {
@@ -173,7 +179,7 @@ top: -2px;
 	left: 50%;
 	margin-left: -400px;
 
-	}
+}
 
 .beer-svg {
 	width: 	77%;
@@ -182,7 +188,7 @@ top: -2px;
 	margin: 0 auto;
 	margin-top: 	80px;
 	padding-left: 15px;
-		
+
 
 
 }
@@ -229,14 +235,17 @@ top: -2px;
 }
 
 .darkBeer p {
-display: block;
-margin-top: 15px;
+	display: block;
+	margin-top: 15px;
 }
 
 .darkBeer img {
-max-height: 330px;
+	max-height: 330px;
 }
 
+.slideOneMobile img {
+	width: 100%;
+}
 
 .beer_st0 {
 	fill:none;
@@ -245,7 +254,7 @@ max-height: 330px;
 	stroke-linecap:round;
 	stroke-linejoin:round;
 }
-	
+
 .beer_st1 {
 	fill:none;
 	stroke:#000000;
@@ -255,15 +264,14 @@ max-height: 330px;
 	stroke-dasharray:5.0017,13.0045,0,0,0,0;
 }
 
-
 .carousel-control {
 	width: 	0;
 }
 
 .arrows {
-	  font-size: 20px!important;
-    color: #000;
-    text-shadow: none;
+	font-size: 20px!important;
+	color: #000;
+	text-shadow: none;
 }
 
 .steik_st0 {
@@ -290,8 +298,8 @@ max-height: 330px;
 	font-size: 	50px;
 	line-height: 	55px;
 	position: absolute;	
-top: -50px;
-left: 450px;
+	top: -50px;
+	left: 450px;
 }
 
 .steik img {
@@ -316,8 +324,8 @@ left: 450px;
 	font-size: 	50px;
 	line-height: 	55px;
 	position: absolute;	
-top: 335px;
-left: 115px;
+	top: 335px;
+	left: 115px;
 }
 
 .burger img {
@@ -364,8 +372,8 @@ left: 115px;
 	font-size: 	50px;
 	line-height: 	55px;
 	position: absolute;	
-top: 240px;
-left: -220px;
+	top: 240px;
+	left: -220px;
 }
 
 .football img {
@@ -375,7 +383,7 @@ left: -220px;
 
 .block3 {
 	width: 	100%;
-padding: 5% 0;
+	padding: 5% 0;
 }
 
 .block3 h1 {
@@ -386,9 +394,9 @@ padding: 5% 0;
 
 @media (min-width: 768px) and (max-width: 992px)  {
 	.slideOne {
- -webkit-transform: scale(0.7);
- -moz-transform: scale(0.7);
- -o-transform: scale(0.7);	
+		-webkit-transform: scale(0.7);
+		-moz-transform: scale(0.7);
+		-o-transform: scale(0.7);	
 	}
 }
 
@@ -400,16 +408,16 @@ padding: 5% 0;
 	padding-bottom: 20px;
 }
 
-    .thumb img { 
-			opacity: 0.5;
-      background-color: #000; 
-    } 
-    .thumb img:hover { 
-opacity: 1;
-    } 
-    .thumb { 
-      padding:8px; 
-    } 
+.thumb img { 
+	opacity: 0.5;
+	background-color: #000; 
+} 
+.thumb img:hover { 
+	opacity: 1;
+} 
+.thumb { 
+	padding:8px; 
+} 
 
 /* Tabs */
 
@@ -492,7 +500,7 @@ ul.textMenuMobile span {
 	border: 10px solid #ededed;
 	border-radius: 10px;
 	overflow: hidden;
-		max-width: 700px;
+	max-width: 700px;
 }
 
 .imgMenuMobile img {
@@ -502,45 +510,45 @@ ul.textMenuMobile span {
 }
 
 .imgMenu img {
-	 -moz-transition: all 0.6s ease-out;
- -o-transition: all 0.6s ease-out;
- -webkit-transition: all 0.6s ease-out;
- }
- 
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-webkit-transition: all 0.6s ease-out;
+}
+
 .imgMenu img:hover {
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 
 .moveImg img {
-	 -moz-transition: all 0.4s ease-out;
- -o-transition: all 0.4s ease-out;
- -webkit-transition: all 0.4s ease-out;
- }
- 
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+}
+
 .moveImg img:hover {
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 
 .moveText p {
- -moz-transition: all 0.4s ease-out;
- -o-transition: all 0.4s ease-out;
- -webkit-transition: all 0.4s ease-out;
- }
- 
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+}
+
 .moveText p:hover {
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 
 ul.nav {
 	max-width: 785px;
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 
 ul.nav a {
@@ -553,14 +561,14 @@ ul.nav a:hover {
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-		color: #b48a76;
-		background-color:transparent;
-		border: none;
-		border-bottom: 2px solid #b48a76;
+	color: #b48a76;
+	background-color:transparent;
+	border: none;
+	border-bottom: 2px solid #b48a76;
 }
 
 .nav-tabs {
-    border: none;
+	border: none;
 }
 
 ul.nav li {
@@ -575,31 +583,31 @@ ul.nav li {
 	opacity: 0.8;
 }
 
- .icon-decor-left {
- 	position: relative;
-  left: -25px;
- }
+.icon-decor-left {
+	position: relative;
+	left: -25px;
+}
 
- .icon-decor-right {
- 	position: relative;
-  right: -8px;
- }
+.icon-decor-right {
+	position: relative;
+	right: -8px;
+}
 
- .icon-decor-up,
- .icon-decor-down {
-position: relative;
-left: -95px;
- 	font-size: 1.5em;
- 	color: #b48a76;
- 	display: block;
- 	margin: 15px 0;
- }
+.icon-decor-up,
+.icon-decor-down {
+	position: relative;
+	left: -95px;
+	font-size: 1.5em;
+	color: #b48a76;
+	display: block;
+	margin: 15px 0;
+}
 
- .icon-decor-down {
- 	margin-top: 40px;
- }
+.icon-decor-down {
+	margin-top: 40px;
+}
 
- .block5 {
+.block5 {
 	width: 100%;
 	padding: 5% 0;
 	background-color: transparent;
@@ -713,16 +721,16 @@ ul.navs>li>a:focus {
 
 
 @media (max-width: 767px){
-.navs>li {
-    display: block;
-    margin: 0 auto;
-}
+	.navs>li {
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 768px){
-h1 {
-    font-size: 30px;
-}
+	h1 {
+		font-size: 30px;
+	}
 }
 
 .visible-xs p {
