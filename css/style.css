@@ -51,11 +51,6 @@ nav>a:focus {
 	color: #efd026;
 }
 
-
-
-
-
-
 nav {
 	display: block;
 	background-color: rgba(0,0,0,0.4);
@@ -96,21 +91,25 @@ ul {
 	margin: auto;
 }
 
-
 .block1 {
 	display: block;
 	text-align: center;
 	max-width: 100%;
 	background-image: url(../images/bg4.jpg);
 	background-repeat: no-repeat;
-
 	background-size: cover; /* Современные браузеры */
 	background-position: center;
 	height: 100vh;
 }
 
+@media (max-height: 400px){
+	.block1 {
+		height: 150vh
+	}
+}
+
 .numberPhone {
-	font-family:  sans-serif;
+	font-family: sans-serif;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
@@ -132,34 +131,34 @@ ul {
 .circle {
 	color: #efd026;
 	margin: 0 18px;
-	font-size: 	10px;
+	font-size:	10px;
 	top: -2px;
 }
 
 .block2 {
 	background-color: #f0f0f0;
-	width: 	100%;
-	padding: 5% 0;
+	width:100%;
+	padding: 35px 0;
 }
 
 .carousel-image {
 	position: relative;
-	padding: 	20px;
-	height: 	550px;
+	padding: 20px;
+	height: 550px;
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 767px)  {
 	.carousel-image {
 		height: auto!important;
 	}
 }
 
 .Neucha {
-	font-family: 	"NeuchaRegular";
-	font-size: 	33px;
+	font-family: "NeuchaRegular";
+	font-size: 33px;
 	text-transform: uppercase;
-	letter-spacing: 	2px;
-	line-height: 	37px;
+	letter-spacing: 2px;
+	line-height: 37px;
 }
 
 .position-rel {
@@ -174,23 +173,19 @@ ul {
 .slideOne {
 	position: absolute;
 	text-align: center;	
-	width: 	800px;
-	height: 	500px;
+	width: 800px;
+	height: 500px;
 	left: 50%;
 	margin-left: -400px;
-
 }
 
 .beer-svg {
-	width: 	77%;
+	width: 77%;
 	height: auto;
-	display: 	block;
+	display: block;
 	margin: 0 auto;
-	margin-top: 	80px;
+	margin-top:	80px;
 	padding-left: 15px;
-
-
-
 }
 
 .normalBeer {
@@ -295,8 +290,8 @@ ul {
 }
 
 .steik p {
-	font-size: 	50px;
-	line-height: 	55px;
+	font-size: 50px;
+	line-height: 55px;
 	position: absolute;	
 	top: -50px;
 	left: 450px;
@@ -321,8 +316,8 @@ ul {
 }
 
 .burger p {
-	font-size: 	50px;
-	line-height: 	55px;
+	font-size: 50px;
+	line-height: 55px;
 	position: absolute;	
 	top: 335px;
 	left: 115px;
@@ -346,7 +341,7 @@ ul {
 
 .football-svg {
 	position: absolute;	
-	width: 	250px;
+	width: 250px;
 	height: auto;
 	top: 50px;
 	left: 50px;
@@ -369,8 +364,8 @@ ul {
 }
 
 .football p {
-	font-size: 	50px;
-	line-height: 	55px;
+	font-size: 50px;
+	line-height: 55px;
 	position: absolute;	
 	top: 240px;
 	left: -220px;
@@ -382,8 +377,8 @@ ul {
 }
 
 .block3 {
-	width: 	100%;
-	padding: 5% 0;
+	width: 100%;
+	padding: 35px 0;
 }
 
 .block3 h1 {
@@ -391,7 +386,6 @@ ul {
 }
 
 /* Laptop */
-
 @media (min-width: 768px) and (max-width: 992px)  {
 	.slideOne {
 		-webkit-transform: scale(0.7);
@@ -400,33 +394,31 @@ ul {
 	}
 }
 
-
 /* Gallery */
-
 .h1 {
-	margin: 35px auto;
-	padding-bottom: 20px;
+	margin: 15px auto;
+	padding-bottom: 15px;
 }
 
 .thumb img { 
 	opacity: 0.5;
 	background-color: #000; 
 } 
+
 .thumb img:hover { 
 	opacity: 1;
 } 
+
 .thumb { 
 	padding:8px; 
 } 
 
 /* Tabs */
-
 .block4 {
 	width: 100%;
-	padding: 5% 0;
+	padding: 35px 0;
 	background-color: #f0f0f0;
 }
-
 
 ul.textMenu li {
 	text-align: left;
@@ -504,7 +496,6 @@ ul.textMenuMobile span {
 }
 
 .imgMenuMobile img {
-
 	width: 100%;
 	height: auto;
 }
@@ -583,6 +574,7 @@ ul.nav li {
 	opacity: 0.8;
 }
 
+
 .icon-decor-left {
 	position: relative;
 	left: -25px;
@@ -609,7 +601,7 @@ ul.nav li {
 
 .block5 {
 	width: 100%;
-	padding: 5% 0;
+	padding: 35px 0;
 	background-color: transparent;
 	color: #f0f0f0;
 }
@@ -641,6 +633,7 @@ ul.nav li {
 .contacts-icon li {
 	display: inline-block;
 }
+
 .contacts-icon a {
 	color: #efd026;
 	font-size: 45px;
@@ -700,7 +693,6 @@ ul.navs>li>a:focus {
 }
 
 .navbar-background {
-	
 	display: block;
 	text-align: center;
 }
@@ -717,8 +709,6 @@ ul.navs>li>a:focus {
 	line-height: 35px;
 	margin-left: 15px;
 }
-
-
 
 @media (max-width: 767px){
 	.navs>li {
